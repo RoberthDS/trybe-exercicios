@@ -1,8 +1,6 @@
-Internet
-Unix
-Bash
-Mouse
-Teclado
-Touch
-Purificador
-Fones
+O que eu vou aprender na Trybe:
+
+- Unix
+- Bash
+- Git
+- softskills
