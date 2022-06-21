@@ -17,3 +17,13 @@ console.log(divisao);
 let modulo = a % b;
 console.log(modulo);
 
+// Atividade 2
+const c = 37;
+const d = 61;
+
+if (c > d) {
+  console.log(c);
+}
+else {
+  console.log(d);
+}
