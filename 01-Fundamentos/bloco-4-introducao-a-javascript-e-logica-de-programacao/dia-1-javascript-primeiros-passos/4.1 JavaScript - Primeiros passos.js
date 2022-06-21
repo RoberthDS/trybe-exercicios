@@ -29,16 +29,29 @@ else {
 }
 
 //Aatividade 3
-const e = 23;
-const f = 43;
+const e = 41;
+const f = 39;
 const g = 45;
 
 if (e > f && e > g) {
   console.log(e);
 }
-else if (f > g) {
+else if (f > g && f > g) {
   console.log(f);
 }
 else {
   console.log(g);
+}
+
+//Atividade 4
+const num1 = 0;
+
+if (num1 > 0) {
+  console.log("positive");
+} 
+else if (num1 < 0) {
+  console.log("negative");
+}
+else {
+  console.log("zero")
 }
