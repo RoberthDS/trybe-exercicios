@@ -27,3 +27,18 @@ if (c > d) {
 else {
   console.log(d);
 }
+
+//Aatividade 3
+const e = 23;
+const f = 43;
+const g = 45;
+
+if (e > f && e > g) {
+  console.log(e);
+}
+else if (f > g) {
+  console.log(f);
+}
+else {
+  console.log(g);
+}
