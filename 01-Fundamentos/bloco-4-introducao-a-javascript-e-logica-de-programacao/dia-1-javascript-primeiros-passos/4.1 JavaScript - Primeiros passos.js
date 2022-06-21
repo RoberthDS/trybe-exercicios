@@ -28,7 +28,7 @@ else {
   console.log(d);
 }
 
-//Aatividade 3
+// Aatividade 3
 const e = 41;
 const f = 39;
 const g = 45;
@@ -54,4 +54,19 @@ else if (num1 < 0) {
 }
 else {
   console.log("zero")
+}
+
+// Atividade 5
+const l1 = 6
+const l2 = 6
+const l3 = -6
+
+if (l1 + l2 + l3 === 180) {
+  console.log(true);
+}
+else if (l1 || l2 || l3 < 0) {
+  console.log("ERROR");
+}
+else {
+  console.log(false)
 }
