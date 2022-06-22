@@ -1,5 +1,12 @@
 div:hover{
     border: 4px solid green;
+exercicios/4.1
     
 }
 
+    z-index: 1;
+}
+div {
+    color: red;
+    z-index: 2;
+}
