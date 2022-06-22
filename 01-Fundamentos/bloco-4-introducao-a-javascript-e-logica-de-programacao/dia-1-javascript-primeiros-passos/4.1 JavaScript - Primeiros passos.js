@@ -70,3 +70,28 @@ else if (l1 || l2 || l3 < 0) {
 else {
   console.log(false)
 }
+
+// Atividade 6
+let peca = "tORRE"
+
+if (peca.toLowerCase() === "rei") {
+  console.log("Rei-> move uma casa apenas para qualquer direção");
+}
+else if (peca.toLowerCase() === "cavalo") {
+  console.log("Cavalo -> move em forma de L, pode pular sobre as peças");
+}
+else if (peca.toLowerCase() === "peão"){
+  console.log("peão -> priemiro movimento dele pode ser duas casas, de resto apenas uma por vez");
+}
+else if (peca.toLowerCase() === "torre"){
+  console.log("Torre -> move-se na horizontal e vertical");
+}
+else if (peca.toLocaleLowerCase() === "bispo"){
+  console.log("Bispo -> move-se em diagonal");
+}
+else if (peca.toLocaleLowerCase() === "rainha"){
+  console.log("Rainha -> move-se em vertical, horizontal e na diagonal");
+}
+else {
+  console.log("ERROR: Peça não existente");
+}
