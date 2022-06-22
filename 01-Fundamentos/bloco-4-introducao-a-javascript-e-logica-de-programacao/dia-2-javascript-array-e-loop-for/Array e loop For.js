@@ -12,5 +12,10 @@ for (let i = 0; i < numbers.length; i += 1) {
 }
   console.log("soma dos valores no array é: " + soma);
 
+// Atividade 3
+let media = 0;
 
+media = soma / numbers.length;
+  console.log(" a média dos valores da array é: " + media);
 
+   
