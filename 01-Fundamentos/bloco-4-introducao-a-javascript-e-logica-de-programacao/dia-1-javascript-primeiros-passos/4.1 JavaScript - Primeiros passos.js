@@ -132,3 +132,15 @@ if (n1 % 2 === 0 || n2 % 2 === 0 || n3 % 2 === 0) {
 else {
   console.log(false);
 }
+
+// Atividade 9
+const r = 8;
+const s = 5;
+const k = 2;
+
+let p = false;
+
+if (r % 2 === 1 || s % 2 === 1 || k % 2 === 1) {
+  p = true;
+}
+  console.log(p);
