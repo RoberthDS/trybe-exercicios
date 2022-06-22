@@ -18,4 +18,9 @@ let media = 0;
 media = soma / numbers.length;
   console.log(" a média dos valores da array é: " + media);
 
-   
+// Atividade 4
+if (media > 20) {
+  console.log("valor maior que vinte")
+ } else {
+  console.log("valor menor ou igual a 20");
+ }
