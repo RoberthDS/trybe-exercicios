@@ -9,9 +9,13 @@ let info = {
   // Questão 2
   info.recorrente = 'Sim'
 
-  console.log(info);
+  console.log(info + "\n"); 
 
   // Questão 3
   for (key in info) {
     console.log(key);
+  }
+
+  for (key in info) {
+    console.log(info[key]);
   }
