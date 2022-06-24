@@ -10,3 +10,8 @@ let info = {
   info.recorrente = 'Sim'
 
   console.log(info);
+
+  // Questão 3
+  for (key in info) {
+    console.log(key);
+  }
