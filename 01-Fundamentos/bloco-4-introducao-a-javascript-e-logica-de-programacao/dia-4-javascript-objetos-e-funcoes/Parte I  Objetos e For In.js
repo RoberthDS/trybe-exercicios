@@ -5,3 +5,8 @@ let info = {
   };
 
   console.log('Bem-vinda, ' + info.personagem);
+
+  // Questão 2
+  info.recorrente = 'Sim'
+
+  console.log(info);
